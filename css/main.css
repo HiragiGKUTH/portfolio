@@ -18,6 +18,12 @@ h2 {
     margin-bottom: 16px;
 }
 
+.me {
+    font-size: 20px;
+    font-weight: normal
+    text-align: center;
+}
+
 .contents-wrapper {
     display: flex;
     flex-direction: column;
@@ -46,20 +52,37 @@ header a {
     background-color: white;
 }
 
+#aboutme h2 {
+    padding: 10px;
+    padding-left: 24px;
+}
+
+#aboutme h3 {
+    padding-left: 32px;
+    font-size: 20px;
+}
+
 .info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 120px;
+    width: 300px;
 }
 
 .info p {
     text-align: center;
-    line-height: 26px;
+    line-height: 20px;
 }
 
 #links {
     background-color: #fafaff;
+}
+
+#links h2 {
+    padding: 10px;
+    padding-left: 24px;
 }
 
 .information-wrapper {
@@ -78,9 +101,10 @@ header a {
     border-radius: 12px;
     background-color: #f7f7fa;
 
-    margin-bottom: 24px;
-    width: 280px;
-    height: 160px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 240px;
+    height: 120px;
 
     transition-duration: 0.3s;
 }

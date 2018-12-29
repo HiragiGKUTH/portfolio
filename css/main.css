@@ -52,14 +52,19 @@ header a {
     background-color: white;
 }
 
-#aboutme h2 {
+h2 {
     padding: 10px;
-    padding-left: 24px;
+    padding-left: 5%;
 }
 
 #aboutme h3 {
-    padding-left: 32px;
-    font-size: 20px;
+    
+    padding-left: 7%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
 }
 
 .info {
@@ -67,7 +72,6 @@ header a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 120px;
     width: 300px;
 }
 
@@ -80,16 +84,17 @@ header a {
     background-color: #fafaff;
 }
 
-#links h2 {
-    padding: 10px;
-    padding-left: 24px;
-}
-
 .information-wrapper {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+.activities-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .link {
     display: flex;

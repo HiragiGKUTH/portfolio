@@ -1,0 +1,23 @@
+body {
+    font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック','YuGothic','Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'  ; 
+  }
+  
+  header {
+    background-color: #234;
+  }
+  
+  header h1 {
+    font-size: 48px;
+    font-weight: normal;
+    color: white;
+    
+    margin: 12px 24px;
+    padding: 0;
+    
+  }
+  
+  main textarea {
+    font-weight: normal;
+    font-size: 13px;
+    font-family: "SF Mono","Monaco","Andale Mono","Lucida Console","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
+  }

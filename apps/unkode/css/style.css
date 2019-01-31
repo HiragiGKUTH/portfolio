@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック','YuGothic','Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #234;
+    padding: 0;
+    margin: 0;
+}
+
+header h1 {
+  font-size: 48px;
+  font-weight: normal;
+  color: white;
+
+  margin: 0;
+  padding: 12px 18px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main textarea {
+  font-weight: normal;
+  font-size: 15px;
+  font-family: "SF Mono","Monaco","Andale Mono","Lucida Console","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
+  padding: 16px;
+  border-radius: 4px;
+  transition-duration: 0.5s;
+}
+
+main textarea:hover {
+  border-radius: 12px;
+}
+
+#input ,#output {
+  height: 520px;
+  width: 900px;
+}
+
+#input:hover {
+  background-color: #fd2;
+}
+
+#output:hover {
+  background-color: rgb(224, 224, 256);
+}
+
+#form {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  align-items: center;
+  margin: 4px;
+}
+
+#form button {
+  font-size: 16px;
+  width: 120px;
+  height: 40px;
+  margin: inherit;
+  margin-right: 32px;
+}
+
+#form p {
+  font-size: 18px;
+  margin: inherit;
+}
+
+#form p input {
+  font-size: 16px;
+  height: 32px;
+  width: 64px;
+}
+
+.Result div {
+  display: flex;
+  align-items: center;
+}
+
+.Result div h2 {
+  margin-right: 16px;
+}
+
+.Result div p {
+  font-size: 18px;
+}
+
+main button {
+  padding: 4px 8px;
+}

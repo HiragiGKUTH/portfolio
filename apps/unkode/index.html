@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Clean Unkode</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Clean Unkode
+      </h1>
+    </header>
+    <main>
+      <section class="Original">
+        <h2><<< Unkode Here!! >>></h2>        
+      <textarea id="input" class="code"></textarea>
+      </section>
+      <section id="form">
+        <button onclick="main();">
+          Cleaning!
+        </button>
+        <p>
+          Tab Size　<input id="tabSize" type="number" value="4" min="1" max="16" onchange="changeTabSize();">
+        </p>
+      </section>
+      <section class="Result">
+        <div>
+          <h2>
+            <<< Beautiful Result! >>>
+          </h2>
+          <section id="Measure">
+            <p>
+              Quality(%) : <span id="qualityRatio"></span>
+            </p>
+          </section>
+        </div>
+        <textarea id="output" class="code" readonly="readonly"></textarea>
+      </section>
+    </main>
+  </body>
+</html>

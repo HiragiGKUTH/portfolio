@@ -54,6 +54,21 @@ header a {
     text-decoration: none;
 }
 
+#c96 h2, #c96 a {
+    text-decoration: none;
+    color: #022;
+}
+
+#c96 h2 {
+    border-left: medium solid #022;
+    transition-duration: 0.5s;
+    
+}
+
+#c96 h2:hover {
+    border-left: 16px solid #022;
+}
+
 #aboutme {
     background-color: white;
 }
